@@ -30,7 +30,7 @@
         android:layout_margin="16dp"
         android:text="@string/introduction"
         android:textAlignment="center"
-        android:textColor="@android:color/black"
+        android:textColor="?android:attr/textColorPrimary"
         android:textSize="20sp" />
 
     <LinearLayout

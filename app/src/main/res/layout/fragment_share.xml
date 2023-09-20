@@ -20,7 +20,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#ffffff"
+    android:background="?android:attr/colorBackground"
     android:orientation="vertical"
     app:behavior_hideable="true"
     app:behavior_peekHeight="280dp"
@@ -41,7 +41,7 @@
             android:layout_marginEnd="16dp"
             android:layout_weight="1"
             android:gravity="center_vertical"
-            android:textColor="?android:textColorSecondary"
+            android:textColor="?android:attr/textColorPrimary"
             android:textSize="16sp"
             android:textStyle="bold"
             tools:text="Send 1 file to…" />
